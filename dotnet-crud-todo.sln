@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C21114FB-BC6C-475F-8BC9-F6620B6E956E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D833AF1-4B82-4C3C-9380-E117C8C46326}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dotnet-crud-todo", "src\dotnet-crud-todo\dotnet-crud-todo.xproj", "{6C289946-A891-444F-B141-38FFD648BDF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C289946-A891-444F-B141-38FFD648BDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C289946-A891-444F-B141-38FFD648BDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C289946-A891-444F-B141-38FFD648BDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C289946-A891-444F-B141-38FFD648BDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C289946-A891-444F-B141-38FFD648BDF9} = {C21114FB-BC6C-475F-8BC9-F6620B6E956E}
+	EndGlobalSection
+EndGlobal
